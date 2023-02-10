@@ -1,1 +1,1 @@
-# jasmine-alexia-athens
+# Athens Digital Arts Festival
