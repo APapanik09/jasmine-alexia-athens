@@ -2,6 +2,18 @@
 /* -- Styles Généraux -- */
 
 /* -- Barre Nav -- */
+.navbar {
+    width: 100%;
+    background-color: var(--tertiaire);
+    font-family: var(--titre);
+}
+
+.navbar-toggler {
+    background-color: var(--highlight)
+}
+
+
+
 
 /* -- Barre de recherche --*/
 
