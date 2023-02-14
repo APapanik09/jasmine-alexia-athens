@@ -1,6 +1,7 @@
 
 /* -- Styles Généraux -- */
 
+
 /* -- Barre Nav -- */
 .navbar {
     width: 100%;
@@ -12,7 +13,22 @@
     background-color: var(--highlight)
 }
 
+.pfp img{
+    border-radius: 50px;
+}
 
+footer {
+    background-color: var(--tertiaire);
+    color: var(--primaire);
+    text-align: center;
+
+
+}
+
+.logofooter img {
+    height: 100px;
+    width: 100px;
+}
 
 
 /* -- Barre de recherche --*/
@@ -20,6 +36,9 @@
 /* -- Section En Vedette -- */
 
 /* -- Section Autres --*/
+
+/* -- Footer -- */
+
 
 
 
