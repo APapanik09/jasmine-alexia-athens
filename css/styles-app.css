@@ -1,8 +1,11 @@
 
 /* -- Styles Généraux -- */
-
+p {
+    font-family: var(--texte);
+}
 
 /* -- Barre Nav -- */
+
 .navbar {
     width: 100%;
     background-color: var(--tertiaire);
@@ -17,18 +20,7 @@
     border-radius: 50px;
 }
 
-footer {
-    background-color: var(--tertiaire);
-    color: var(--primaire);
-    text-align: center;
 
-
-}
-
-.logofooter img {
-    height: 100px;
-    width: 100px;
-}
 
 
 /* -- Barre de recherche --*/
@@ -39,6 +31,17 @@ footer {
 
 /* -- Footer -- */
 
+footer {
+    background-color: var(--tertiaire);
+    color: var(--primaire);
+
+
+}
+
+.logofooter img {
+    height: 100px;
+    width: 100px;
+}
 
 
 
