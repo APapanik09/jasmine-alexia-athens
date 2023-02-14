@@ -1,10 +1,10 @@
 @font-face {
-    src: url("assets/LibreCaslonText-Regular.ttf") format("truetype");
+    src: url("../assets/LibreCaslonText-Regular.ttf") format("truetype");
     font-family: "Caslon";
   }
 
   @font-face {
-    src: url("assets/Nomark.otf") format("opentype");
+    src: url("../assets/Nomark.otf") format("opentype");
     font-family: "Nomark";
   }
 
@@ -43,21 +43,21 @@ h3, .h3 {
 }
 
 h4, .h4 {
-    font-family: var(--titre);
+    font-family: var(--texte);
     font-size: 50px;
     font-weight: 900px;
     color: var(--secondaire);
 }
 
 h5, .h5 {
-    font-family: var(--titre);
+    font-family: var(--texte);
     font-size: 30px;
     font-weight: 900px;
     color: var(--secondaire);
 }
 
 h6, .h6 {
-    font-family: var(--titre);
+    font-family: var(--texte);
     font-size: 25px;
     font-weight: 900px;
     color: var(--secondaire);
