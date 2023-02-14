@@ -1,8 +1,23 @@
+@font-face {
+    src: url("assets/LibreCaslonText-Regular.ttf") format("truetype");
+    font-family: "Caslon";
+  }
+
+  @font-face {
+    src: url("assets/Nomark.otf") format("opentype");
+    font-family: "Nomark";
+  }
+
+
+
 :root {
     --primaire: #e3dfdb;
     --secondaire: #343434;
     --tertiaire: #646464;
     --quaternaire: #949494;
     --highlight: #d0a854;
+    --titre: "Nomark";
+    --texte: "Caslon";
+
     
 }
