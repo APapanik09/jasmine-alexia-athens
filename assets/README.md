@@ -1,0 +1,1 @@
+Les photos de l'artistes vont dans le dossier artists. Les photos des oeuvres vont dans artworks. Le reste va dans le dossier assets directement. Ne pas créer un autre dossier.
