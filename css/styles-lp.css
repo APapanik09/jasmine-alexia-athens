@@ -25,6 +25,9 @@ a[href*="github"]:hover{
 }
 main{
     padding: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cadre{
     width: 100%;
@@ -36,6 +39,7 @@ iframe{
     width: 100%;
     aspect-ratio: 5/9;
     max-height: 600px;
+    border-radius: 30px;
 }
 h1{
     font-size: 70px;
