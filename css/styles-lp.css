@@ -2,8 +2,26 @@
 /* -- Styles Généraux -- */
 
 /* -- Barre Nav -- */
-
+.navbar{
+    background-color: red;
+    width: 100%;
+}
 /* -- Fonctionnalités --*/
-
+/* -- Pied de page --*/
+footer{
+    background-color:var(--secondaire) ;
+}
+.row{
+    text-align: center;
+    color: var(--primaire);
+}
+a[href*="github"]{
+    color: var(--primaire);
+    text-decoration: none;
+}
+a[href*="github"]:hover{
+    color: var(--highlight);
+    text-decoration: none;
+}
 
 

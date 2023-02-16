@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="none" />
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -12,14 +13,58 @@
     <link rel="stylesheet" href="css/styles-lp.css">
 </head>
 
-<body>
-    <h1>Application</h1>
-    <h2>pipicacacacacacacaca</h2>
-    <h3>pipicacacacacacacaca</h3>
-    <h4>pipicacacacacacacaca</h4>
-    <h5>pipicacacacacacacaca</h5>
-    <h6>pipicacacacacacacaca</h6>
+<body data-bs-target="#navbar-spy">
+    <header>
+        <nav id="navbar-spy" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+        <!-- Hamburger button -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <!-- Navigation -->
+        <a class="navbar-brand "  href="index.html">Nom de mon site</a>
+        <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#appli" class="nav-link">L'appli</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#fonctionnalites" class="nav-link">Fonctionnalités </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#plus" class="nav-link">En savoir plus </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-spy"  tabindex="0">   
+     <h4 id="appli">L'application</h4>
+
+      <h4 id="fonctionnalites">Fonctionalités</h4>
+
+
+      <h4 id="plus">En savoir plus</h4> 
+
+</div>
+    </header>
+    <main></main>
+    <footer class="p-1 mt-1">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-lg-6 ">Alexia Papanikolaou<br> Jasmine Lapierre</div>
+                <div class="col-12 col-lg-6 ">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-12 col-lg-12 "><a href="https://github.com/APapanik09/jasmine-alexia-athens">https://github.com/APapanik09/jasmine-alexia-athens</a> </div>
+                        <div class="col-12 col-lg-12 ">@2023</div> 
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
