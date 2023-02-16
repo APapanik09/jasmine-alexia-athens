@@ -34,14 +34,12 @@ p {
 footer {
     background-color: var(--tertiaire);
     color: var(--primaire);
+    text-align: center;
 
 
 }
 
-.logofooter img {
-    height: 100px;
-    width: 100px;
-}
+
 
 
 
