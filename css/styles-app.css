@@ -2,13 +2,14 @@
 /* -- Styles Généraux -- */
 p {
     font-family: var(--texte);
+    text-align: center;
 }
 
 /* -- Barre Nav -- */
 
 .navbar {
     width: 100%;
-    background-color: var(--tertiaire);
+    background-color: var(--secondaire);
     font-family: var(--titre);
 }
 
@@ -28,6 +29,8 @@ p {
 .btn {
     border-color: var(--highlight);
     color: var(--highlight);
+    text-align: center;
+
 }
 
 .btn:hover {
@@ -52,6 +55,12 @@ p {
     border-color: var(--highlight);
 }
 
+.btn.filtres {
+    font-size: 15px;
+}
+
+
+
 /* -- Section En Vedette -- */
 
 /* -- Section Autres --*/
@@ -59,17 +68,24 @@ p {
 /* -- Footer -- */
 
 footer {
-    background-color: var(--tertiaire);
+    background-color: var(--secondaire);
     color: var(--primaire);
     text-align: center;
 
 
 }
 
+ul {
+    border: none;
+}
 
 
 
+li{
+    display: inline-block;
+}
 
-
-
-
+.boutons {
+    overflow: hidden;
+    text-align: center;
+}
