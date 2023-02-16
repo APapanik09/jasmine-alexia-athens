@@ -42,7 +42,7 @@ main{
 iframe{
     width: 100%;
     aspect-ratio: 5/9;
-    max-height: 600px;
+    max-height: 700px;
     border-radius: 30px;
     border:solid var(--tertiaire) 13px;
 }
