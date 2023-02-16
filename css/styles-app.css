@@ -25,6 +25,33 @@ p {
 
 /* -- Barre de recherche --*/
 
+.btn {
+    border-color: var(--highlight);
+    color: var(--highlight);
+}
+
+.btn:hover {
+    background-color: var(--highlight);
+    border-color: var(--highlight);
+}
+
+.btn:active {
+    background-color: var(--highlight);
+    border-color: var(--highlight);
+}
+
+.btn:hover .bi-search  {
+    color: var(--primaire);
+}
+
+.bi-search {
+    color: var(--highlight);
+}
+
+.form-control:hover {
+    border-color: var(--highlight);
+}
+
 /* -- Section En Vedette -- */
 
 /* -- Section Autres --*/
