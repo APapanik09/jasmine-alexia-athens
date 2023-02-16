@@ -3,7 +3,7 @@
 
 /* -- Barre Nav -- */
 .navbar{
-    background-color: red;
+    background-color:rgba(0, 0, 0, 0.2);
     width: 100%;
 }
 /* -- Fonctionnalités --*/
@@ -23,5 +23,23 @@ a[href*="github"]:hover{
     color: var(--highlight);
     text-decoration: none;
 }
-
-
+main{
+    padding: 75px;
+}
+.cadre{
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 5/9;
+    display: flex;
+}
+iframe{
+    width: 100%;
+    aspect-ratio: 5/9;
+    max-height: 600px;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
