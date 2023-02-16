@@ -1,6 +1,9 @@
 
 /* -- Styles Généraux -- */
-
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
 /* -- Barre Nav -- */
 .navbar{
     background-color:rgba(0, 0, 0, 0.2);
@@ -10,6 +13,7 @@
 /* -- Pied de page --*/
 footer{
     background-color:var(--secondaire) ;
+    
 }
 .row{
     text-align: center;
@@ -24,7 +28,6 @@ a[href*="github"]:hover{
     text-decoration: none;
 }
 main{
-    padding: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,16 +37,27 @@ main{
     max-width: 400px;
     aspect-ratio: 5/9;
     display: flex;
+
 }
 iframe{
     width: 100%;
     aspect-ratio: 5/9;
     max-height: 600px;
     border-radius: 30px;
+    border:solid var(--tertiaire) 13px;
 }
 h1{
-    font-size: 70px;
+    font-size: 150px;
+    color: var(--primaire);
 }
 h2{
-    font-size: 50px;
+    font-size: 70px;
+    color: var(--primaire);
+    font-family: var(--texte);
+}
+.hero{
+padding: 100px;
+background-image: url("../assets/landing_hero_background.png");
+background-size:cover;
+background-position: top;
 }
