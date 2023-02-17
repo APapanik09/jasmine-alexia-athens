@@ -86,13 +86,14 @@ background-position: top;
 .btn{
     color: var(--highlight);
     border: solid var(--highlight) 3px;
+    background-color: var(--secondaire);
     font-size: 30px;
 
 }
 .btn:hover{
     color: var(--secondaire);
     background-color: var(--highlight);
-    border: solid var(--highlight) 3px;
+    border: solid var(--secondaire) 3px;
     font-size: 30px;
 
 }
@@ -121,4 +122,33 @@ font-size: 30px;
 }
 .navbar-collapse.show ul li a:hover, .navbar-collapse.show ul li a:focus, .navbar-collapse.collapsing ul li a:hover, .navbar-collapse.collapsing ul li a:focus{
     color: white !important; /* Le (--primaire) n'est pas assez petant (on voit rien)*/
+}
+#fonctionnalites{
+    background: var(--secondaire);
+    padding: 300px 0px;
+}
+.card{
+    background-color: var(--secondaire);
+    border: solid 3px var(--primaire);
+    border-radius: 0;
+    padding: 10px;
+}
+h3{
+    color: var(--highlight) !important;
+    font-family: var(--titre);
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.card-text{
+    font-size: 20px;
+}
+i{
+    font-size: 40px;
+    background: var(--secondaire);
+    color: var(--highlight);
+    border-radius: 100% 100%;
+    border: var(--highlight) solid 2px;
+    padding: 8px;
+
 }
