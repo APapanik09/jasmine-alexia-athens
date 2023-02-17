@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+
 }
 /* -- Barre Nav -- */
 .navbar{
@@ -47,17 +48,43 @@ iframe{
     border:solid var(--tertiaire) 13px;
 }
 h1{
-    font-size: 150px;
+    font-size: 50px;
     color: var(--primaire);
 }
 h2{
-    font-size: 70px;
+    font-size: 40px;
     color: var(--primaire);
     font-family: var(--texte);
 }
 .hero{
-padding: 100px;
+padding-top: 100px;
+padding-bottom: 100px;
 background-image: url("../assets/landing_hero_background.png");
-background-size:cover;
+background-size: 100%;
 background-position: top;
+}
+@media (max-width:1700px) {
+    .hero{
+        background-size: cover;
+    }
+}
+@media (min-width:992px){
+    h1{
+        font-size: 100px;
+    }h2{
+        font-size: 75px;
+    }
+}
+.btn{
+    color: var(--highlight);
+    border: solid var(--highlight) 3px;
+    font-size: 30px;
+
+}
+.btn:hover{
+    color: var(--secondaire);
+    background-color: var(--highlight);
+    border: solid var(--highlight) 3px;
+    font-size: 30px;
+
 }
