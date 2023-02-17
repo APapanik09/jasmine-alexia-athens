@@ -73,6 +73,8 @@ background-position: top;
         font-size: 100px;
     }h2{
         font-size: 75px;
+    }.hero{
+        padding: 100px;
     }
 }
 .btn{
