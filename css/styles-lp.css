@@ -7,8 +7,9 @@
 }
 /* -- Barre Nav -- */
 .navbar{
-    background-color:rgba(0, 0, 0, 0.2);
+    background-color:rgba(0, 0, 0, 0.4);
     width: 100%;
+    color: rgba(0,0,0,1);
 }
 /* -- Fonctionnalités --*/
 /* -- Pied de page --*/
@@ -77,6 +78,11 @@ background-position: top;
         padding: 100px;
     }
 }
+@media (max-width:50px){
+    .pipicaca::after{
+        content: "pipicaca";
+    }
+}
 .btn{
     color: var(--highlight);
     border: solid var(--highlight) 3px;
@@ -89,4 +95,30 @@ background-position: top;
     border: solid var(--highlight) 3px;
     font-size: 30px;
 
+}
+.imagelogo{
+    width:50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.nav-item a{
+    color: white;
+}
+a:focus{
+    color: var(--highlight) !important;
+}
+a:hover{
+    color: var(--highlight) !important;
+}
+.navbar-collapse.collapsing,
+.navbar-collapse.show,.navbar-collapse.show ul li a,.navbar-collapse.collapsing ul li a {
+border-radius: 20px;
+background-color: var(--highlight);
+color: var(--secondaire);
+font-size: 30px;
+}
+.navbar-collapse.show ul li a:hover, .navbar-collapse.show ul li a:focus, .navbar-collapse.collapsing ul li a:hover, .navbar-collapse.collapsing ul li a:focus{
+    color: white !important; /* Le (--primaire) n'est pas assez petant (on voit rien)*/
 }
