@@ -5,6 +5,7 @@ p {
     text-align: center;
 }
 
+
 /* -- Barre Nav -- */
 
 .navbar {
@@ -90,4 +91,9 @@ li{
     overflow: auto;
     text-align: center;
 
+}
+
+.card-img-top {
+    height: 20vh;
+    object-fit: cover;
 }
