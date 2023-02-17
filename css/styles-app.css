@@ -30,6 +30,7 @@ p {
     border-color: var(--highlight);
     color: var(--highlight);
     text-align: center;
+    white-space: nowrap;
 
 }
 
@@ -86,6 +87,7 @@ li{
 }
 
 .boutons {
-    overflow: hidden;
+    overflow: auto;
     text-align: center;
+
 }
