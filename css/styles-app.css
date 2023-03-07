@@ -65,6 +65,31 @@ p {
 
 /* -- Section En Vedette -- */
 
+.card-img-top {
+    height: 20vh;
+    object-fit: cover;
+}
+
+a {
+    color: var(--highlight);
+}
+
+.card:hover {
+    border-color: var(--highlight);
+}
+
+#cartes {
+    width: 140%;
+}
+
+#cartes .card{
+    max-width: 200px;
+    padding: 5px;
+}
+
+body {
+    overflow-x: hidden;
+}
 /* -- Section Autres --*/
 
 /* -- Footer -- */
@@ -93,7 +118,4 @@ li{
 
 }
 
-.card-img-top {
-    height: 20vh;
-    object-fit: cover;
-}
+
