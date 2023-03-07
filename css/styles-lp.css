@@ -167,3 +167,12 @@ i{
 #section-testimonials .titre h2 {
     color: var(--secondaire);
 }
+#infolettre{
+    background-image: url("../assets/infolettre_image_1.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+background-position: 0 50%;
+}
+#infolettre .container .row .col-12{
+    background-color: rgba(1,1,1,0.7);
+}
