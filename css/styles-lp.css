@@ -123,9 +123,8 @@ font-size: 30px;
 .navbar-collapse.show ul li a:hover, .navbar-collapse.show ul li a:focus, .navbar-collapse.collapsing ul li a:hover, .navbar-collapse.collapsing ul li a:focus{
     color: white !important; /* Le (--primaire) n'est pas assez petant (on voit rien)*/
 }
-#fonctionnalites{
+#section-features{
     background: var(--secondaire);
-    padding: 300px 0px;
 }
 .card{
     background-color: var(--secondaire);
@@ -151,4 +150,20 @@ i{
     border: var(--highlight) solid 2px;
     padding: 8px;
 
+}
+#section-testimonials{
+    background-color: var(--primaire);
+}
+.card-img-top{
+    height: 20vh;
+    object-fit: cover;
+}
+
+.card-img-top.top{
+    object-position: 0 0;
+}
+
+#section-testimonials .titre,
+#section-testimonials .titre h2 {
+    color: var(--secondaire);
 }
