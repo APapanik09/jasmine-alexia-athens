@@ -127,3 +127,8 @@ li{
     height: 33vh;
     object-fit: cover;
 }
+
+.artistework {
+    background-color: var(--primaire);
+    border-radius: 20px 0px 20px 0px;
+}
