@@ -90,7 +90,6 @@ a {
 body {
     overflow-x: hidden;
 }
-/* -- Section Autres --*/
 
 /* -- Footer -- */
 
@@ -118,4 +117,13 @@ li{
 
 }
 
+/* -- Section Autres --*/
 
+.navbar .artwork {
+    background-color:rgba(60, 60, 60, 0) !important;
+}
+
+.oeuvre {
+    height: 33vh;
+    object-fit: cover;
+}
