@@ -192,3 +192,11 @@ background-position: 0 50%;
 #section-testimonials .container .row .col-12 .card .card-body i{
     border: solid var(--highlight) 4px
 }
+.input-group-append{
+    font-size: 25px;
+    border: none;
+}
+
+.modal{
+    text-align: center;
+}
