@@ -10,7 +10,6 @@ p {
 
 .navbar {
     width: 100%;
-    background-color: var(--secondaire);
     font-family: var(--titre);
 }
 
