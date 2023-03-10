@@ -1,4 +1,4 @@
-$white: #e3dfdb;
+$white: #f1eeeb;
 
 $theme-colors: (
     "light":      #e3dfdb,
@@ -9,6 +9,7 @@ $theme-colors: (
     "success":    #69ca36,
     "warning":    #fdcd88,
     "danger":     #fb2a68,
+    "accordion-active-bg": #fdcd88,
 );
 
 @import '../vendors/bootstrap-5.2.3/bootstrap-5.2.3/scss/bootstrap.scss'
