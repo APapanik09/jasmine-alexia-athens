@@ -5,6 +5,19 @@ p {
     text-align: center;
 }
 
+h2 {
+    font-size: xx-large;
+    padding: 20px 0 20px 0;
+}
+
+main {
+    overflow: hidden;
+}
+
+.indexmain {
+    padding-top: 100px;
+}
+
 
 /* -- Barre Nav -- */
 
@@ -111,7 +124,6 @@ li{
 }
 
 .boutons {
-    overflow: auto;
     text-align: center;
 
 }
@@ -130,4 +142,11 @@ li{
 .artistework {
     background-color: var(--primaire);
     border-radius: 20px 0px 20px 0px;
+}
+
+/* -- Artwork.html -- */
+
+.heart {
+    font-size: 35px;
+    color: var(--highlight);
 }
