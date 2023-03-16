@@ -214,3 +214,46 @@ background-position: 0 50%;
     border: solid var(--bs-dark) 1px;
 
 }
+.swiper{
+    width:50vw;
+    height:50vh;
+  }
+  .swiper-slide img{
+    object-fit:cover;
+    height:100%;
+    width:100%
+  }
+  .swiper-button-prev,.swiper-button-next{
+    width:150px;
+    height:75px;
+    position:absolute;
+    color:black;
+    background-color:pink;
+    border: solid red 2px;
+    font-size:25px;
+    border-radius:10px;
+  }
+  .swiper-button-prev{
+    left:0px;
+  }
+  .swiper-button-next{
+    right:0px;
+  }
+  .swiper-button-prev::after{
+    content:"";
+  }
+  .swiper-button-next::after{
+    content:"";
+  }
+  .conteneur-bouton{
+    position:relative;
+    margin:auto;
+    width:50vw;
+    height:100px;
+    text-align:center;
+  }
+  .swiper-pagination{
+    font-size:100px;
+    line-height:50px;
+    color:pink;
+  }
