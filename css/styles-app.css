@@ -10,10 +10,6 @@ h2 {
     padding: 20px 0 20px 0;
 }
 
-main {
-    overflow: hidden;
-}
-
 .indexmain {
     padding-top: 100px;
 }
@@ -91,7 +87,7 @@ a {
 }
 
 #cartes {
-    width: 140%;
+    overflow: hidden;
 }
 
 #cartes .card{
@@ -146,8 +142,9 @@ li{
 
 /* -- Artwork.html -- */
 
-.heart {
+#heart {
     font-size: 35px;
     color: var(--highlight);
 }
+
 
