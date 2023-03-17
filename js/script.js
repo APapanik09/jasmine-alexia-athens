@@ -1,6 +1,6 @@
 if(document.getElementsByClassName("swiper-screenshots")){
 
-const swiper = new Swiper('.swiper-screenshots', {
+const swiperLP = new Swiper('.swiper-screenshots', {
     loop: true,
   
   slidesPerView:1,
@@ -36,8 +36,8 @@ if(document.getElementById("heart")){
 
   const swiperArt = new Swiper('.swiper-featured-artworks',{
     grabCursor: true,
-    slidesPerView: 2,
-    spaceBetween: 20,
+    slidesPerView: "auto",
+    spaceBetween: 10,
   })
 
 

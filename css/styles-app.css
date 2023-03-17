@@ -148,3 +148,21 @@ li{
 }
 
 
+.swiper-slide{
+    display: inline !important;
+    width: fit-content  !important;
+}
+.oeuvre{
+    font-size: 20px;
+    height: auto;
+}
+.artiste{
+    font-size:10px;
+    height: auto;
+}
+.date{
+    font-size: 10px;
+}
+.petit{
+    font-size: 10px;
+}
