@@ -166,3 +166,7 @@ li{
 .petit{
     font-size: 10px;
 }
+
+.aimerCouleur{
+    color: red !important;
+}

@@ -2,7 +2,7 @@ if(document.getElementById("heart")){
   const heart = document.getElementById("heart");
 
   heart.addEventListener("click", function(){
-    heart.innerHTML = '<i style="color:red;"class="bi bi-chat-heart-fill"></i>';
+    heart.classList.toggle('aimerCouleur');
   })}
 
 if(document.getElementsByClassName("swiper-screenshots")){
