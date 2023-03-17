@@ -271,3 +271,13 @@ background-position: 0 50%;
     height: 100%;
     margin: 0;
 }
+#view-more{
+    background-color: var(--secondaire);
+}
+.h4{
+    color: var(--bs-primary) !important;
+    padding: 40px;
+}
+.container{
+    text-align: center;
+}
