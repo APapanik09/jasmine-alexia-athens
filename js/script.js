@@ -1,3 +1,10 @@
+if(document.getElementById("heart")){
+  const heart = document.getElementById("heart");
+
+  heart.addEventListener("click", function(){
+    heart.innerHTML = '<i style="color:red;"class="bi bi-chat-heart-fill"></i>';
+  })}
+
 if(document.getElementsByClassName("swiper-screenshots")){
 
 const swiperLP = new Swiper('.swiper-screenshots', {
@@ -19,12 +26,6 @@ const swiperLP = new Swiper('.swiper-screenshots', {
   });
 }
   //Heart button
-if(document.getElementById("heart")){
-  const heart = document.getElementById("heart");
-
-  heart.addEventListener("click", function(){
-    heart.innerHTML = '<i style="color:red;"class="bi bi-chat-heart-fill"></i>';
-  })}
 
   //App filter swiper
 
